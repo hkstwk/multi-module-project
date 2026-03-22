@@ -18,7 +18,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/hkstwk/multi-module-project.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:hkstwk/multi-module-project.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/hkstwk/multi-module-project.git</developerConnection>
         <url>https://github.com/hkstwk/multi-module-project</url>
         <tag>multi-module-project-1.0.0</tag>
     </scm>
