@@ -15,6 +15,7 @@
         <module>bom</module>
         <module>distribution</module>
         <module>thirdparty-bom</module>
+        <module>coverage-report</module>
     </modules>
 
     <scm>
@@ -56,6 +57,26 @@
                         <pushChanges>true</pushChanges>
                         <scmCommentPrefix>[release]</scmCommentPrefix>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>0.8.14</version>
+                    <executions>
+                        <execution>
+                            <id>prepare-agent</id>
+                            <goals>
+                                <goal>prepare-agent</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>report</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>report</goal>
+                            </goals>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
