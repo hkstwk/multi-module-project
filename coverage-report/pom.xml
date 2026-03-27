@@ -11,8 +11,6 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -38,12 +36,14 @@
         <dependency>
             <groupId>nl.hkstwk</groupId>
             <artifactId>module-a</artifactId>
-            <version>1.0.0</version>
+            <version>${project.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>nl.hkstwk</groupId>
             <artifactId>module-b</artifactId>
-            <version>1.0.0</version>
+            <version>${project.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

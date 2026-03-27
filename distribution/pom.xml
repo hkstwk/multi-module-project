@@ -23,7 +23,7 @@
             <dependency>
                 <groupId>nl.hkstwk</groupId>
                 <artifactId>thirdparty-bom</artifactId>
-                <version>1.0.0</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
