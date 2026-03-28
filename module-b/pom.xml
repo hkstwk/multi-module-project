@@ -6,7 +6,7 @@
     <parent>
         <groupId>nl.hkstwk</groupId>
         <artifactId>multi-module-project</artifactId>
-        <version>0.0.0-SNAPSHOT</version>
+        <version>1.3.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>module-b</artifactId>
